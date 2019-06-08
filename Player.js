@@ -3,7 +3,7 @@ class Player {
     isOnAir = false;
     
     walk() {
-        console.log('walking...');
+        console.log('walking faster!');
     }
     
     jump() {
