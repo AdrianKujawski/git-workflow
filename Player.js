@@ -1,7 +1,9 @@
 class Player {
 
+    isOnAir = false;
+    
     jump() {
-        console.log("Jump!");
+        !isOnAir && console.log("Jump!");
     }
     
 }
