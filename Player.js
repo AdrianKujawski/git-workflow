@@ -7,7 +7,7 @@ class Player {
     }
     
     jump() {
-        !isOnAir && console.log("Jump!");
+        !isOnAir && console.log("Jump!!!!");
     }
     
 }
