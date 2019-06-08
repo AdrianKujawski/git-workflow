@@ -1,5 +1,6 @@
 class Player {
 
+    ammo = 0;
     isOnAir = false;
     
     walk() {
@@ -11,7 +12,7 @@ class Player {
     }
 
     shoot() {
-        console.log('fire!');
+        if (ammo > 0) console.log('fire!');
     }
     
 }
