@@ -9,5 +9,9 @@ class Player {
     jump() {
         !isOnAir && console.log("Jump!!!!");
     }
+
+    shoot() {
+        console.log('fire!');
+    }
     
 }
